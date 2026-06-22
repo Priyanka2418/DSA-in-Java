@@ -5,7 +5,12 @@ TC: O(n)^2
 SC: O(1)
 
 Better Approach: using hashmap
+TC: O(n)
+SC: O(n)
 
+Optimal Approach (Moore's Voting Algorithm):
+TC: O(n)
+SC: O(1)
  */
 
 public class p017_majorityElement {
