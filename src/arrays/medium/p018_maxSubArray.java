@@ -1,3 +1,5 @@
+package src.arrays.medium;
+
 /*
 Problem: Kadane's Algorithm : Maximum Subarray Sum in an Array
 

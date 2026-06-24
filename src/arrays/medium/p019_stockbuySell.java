@@ -1,4 +1,4 @@
-/*
+package src.arrays.medium;/*
 Problem: Stock Buy and Sell – Max one Transaction Allowed
 Brute Force:
 Check every buy-sell pair and track the maximum profit.

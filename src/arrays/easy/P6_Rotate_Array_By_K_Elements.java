@@ -1,4 +1,4 @@
-//Problem 6: Rotate Array By k Elements
+package src.arrays.easy;//Problem 6: Rotate Array By k Elements
 
 public class  P6_Rotate_Array_By_K_Elements {
     public static  void reverseArray(int nums[],int start,int end){

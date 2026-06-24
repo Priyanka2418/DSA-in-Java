@@ -1,4 +1,4 @@
-//PROBLEM: Find the Majority Element that occurs more than N/2 times
+package src.arrays.medium;//PROBLEM: Find the Majority Element that occurs more than N/2 times
 /*
 Brute force: using nested loop
 TC: O(n)^2

@@ -1,3 +1,5 @@
+package src.arrays.easy;
+
 import java.util.Arrays;
 
 //Problem - 5: Left Rotate the Array by One

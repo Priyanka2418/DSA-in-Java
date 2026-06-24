@@ -1,3 +1,5 @@
+package src.arrays.easy;
+
 public class p013_Longest_Subarray_with_Sum_K {
     public static int longestSubArray(int nums[],int k ){
         int n =nums.length;

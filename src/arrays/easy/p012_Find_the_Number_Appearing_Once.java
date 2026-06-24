@@ -1,3 +1,5 @@
+package src.arrays.easy;
+
 /*
  Problem: Find the number that appears once
   Approach1: Using Hashmap

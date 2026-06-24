@@ -1,4 +1,4 @@
-//Problem 7: Move Zeros to End
+package src.arrays.easy;//Problem 7: Move Zeros to End
 
 import java.util.Arrays;
 

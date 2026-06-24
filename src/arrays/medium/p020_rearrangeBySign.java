@@ -1,4 +1,4 @@
-/*
+package src.arrays.medium;/*
 Problem: Rearrange Array Elements by Sign
 
 Brute Force:

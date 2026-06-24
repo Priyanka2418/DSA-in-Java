@@ -1,4 +1,4 @@
-/*
+package src.arrays.easy;/*
   PROBLEM: Maximum Consecutive Ones
   Approach:
   Traverse the array and maintain a count of consecutive 1s.

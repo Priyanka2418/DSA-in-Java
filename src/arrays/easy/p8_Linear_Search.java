@@ -1,3 +1,5 @@
+package src.arrays.easy;
+
 import java.util.Arrays;
 
 public class p8_Linear_Search {

@@ -1,3 +1,5 @@
+package src.arrays.easy;
+
 public class p10_Find_Missing_Number {
     public static int findNumber(int arr[],int n ){
         int expectedSum =(n*(n+1)/2);

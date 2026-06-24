@@ -1,4 +1,4 @@
-import java.util.Arrays;
+package src.arrays.medium;
 
 public class p015_Sort_array_of_0s_1s_and_2s {
     public static void sortZeroOneTwo(int nums[]){
