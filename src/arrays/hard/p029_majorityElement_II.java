@@ -1,5 +1,17 @@
-package src.arrays.hard;
+/*
+Problem: Majority Element II
 
+Brute Force: Check frequency of every element.
+TC: O(n²), SC: O(1)
+
+Better: Use HashMap to count frequencies.
+TC: O(n), SC: O(n)
+
+Optimal: Boyer-Moore Voting Algorithm.
+TC: O(n), SC: O(1)
+*/
+
+package src.arrays.hard;
 import java.util.ArrayList;
 import java.util.List;
 
