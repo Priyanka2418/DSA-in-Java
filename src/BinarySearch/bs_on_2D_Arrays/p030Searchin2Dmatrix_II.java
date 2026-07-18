@@ -1,11 +1,10 @@
 /*
  * Problem: Search a 2D Matrix II (LeetCode 240)
  *
- * Approach: Start from the top-right corner. Move left if the current element
- * is greater than the target, otherwise move down until the target is found
- * or the search space is exhausted.
+ * Approach: Traverse each row and perform Binary Search only if the target
+ * lies within the row's range.
  *
- * Time Complexity: O(row + col)
+ * Time Complexity: O(row * log(col))
  * Space Complexity: O(1)
  */
 
