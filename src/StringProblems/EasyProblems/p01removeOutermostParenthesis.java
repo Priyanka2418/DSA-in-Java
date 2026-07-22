@@ -1,13 +1,16 @@
 /*
 Problem: Remove Outermost Parentheses
 
-Optimal:
-- Use a balance counter while traversing.
-- Skip the first '(' and last ')' of every primitive.
-- Store the result in StringBuilder.
-- Time: O(n), Space: O(n)
+Approach:
+- Traverse the string using a balance counter.
+- Skip the outermost '(' and ')' of each primitive.
+- Build the result using StringBuilder.
+
+Time Complexity: O(n)
+Space Complexity: O(n)
 */
-package src.stringProblems.EasyProblems;
+
+package src.StringProblems.EasyProblems;
 
 public class p01removeOutermostParenthesis {
     public String removeOutermostParenthesis(String s ) {
