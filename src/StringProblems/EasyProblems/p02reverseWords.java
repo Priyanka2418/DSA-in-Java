@@ -2,24 +2,16 @@
 Problem: Reverse Words in a String
 
 Brute Force:
-- Split the string into words.
-- Traverse the words array in reverse order.
-- Append non-empty words using StringBuilder.
+- Split, reverse, and join the words.
 - Time: O(n), Space: O(n)
 
 Optimal:
-- Traverse the string from right to left.
-- Extract each word using substring().
-- Append words directly to StringBuilder.
-- Skip extra spaces without using split().
-- Time: O(n), Space: O(1) (excluding output)
+- Traverse from right to left.
+- Extract and append each word while skipping extra spaces.
+- Time: O(n), Space: O(n)
 */
 
-package src.stringProblems.EasyProblems;
-
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+package src.StringProblems.EasyProblems;
 
 public class p02reverseWords {
     public String reverseWords(String s ){
