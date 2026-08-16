@@ -3,10 +3,9 @@ Problem: Segregate Even and Odd Nodes in Linked List
 
 TC: O(N)  We traverse the entire linked list only once to rearrange the nodes
 SC: O(1) We do not use any extra data structures
-
 */
 
-package src.LinkedList.MediumProblems_DLL;
+package src.LinkedList.MediumProblems_LL;
 
 public class p015segregateOdd_evenNodes_LL {
     public static Node segregateEvenOdd(Node head){

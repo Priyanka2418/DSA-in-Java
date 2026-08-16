@@ -4,7 +4,7 @@ SC: O(N*LogN), we recursively divide the linked list into two halves and then me
 TC: O(1) constant additional space is required to sort teh entire Linked List
 
  */
-package src.LinkedList.MediumProblems_DLL;
+package src.LinkedList.MediumProblems_LL;
 
 public class p018sort_LL {
     public Node findMiddle(Node head){

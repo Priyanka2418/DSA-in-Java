@@ -3,7 +3,7 @@ Problem : Find intersection of Two Linked Lists
 SC: O(2 × max(length of list1, length of list2)), Uses the same concept of difference of lengths of two lists.
 TC: O(1), No extra data structure is used.
  */
-package src.LinkedList.MediumProblems_DLL;
+package src.LinkedList.MediumProblems_LL;
 
 public class p020intersectionPoint_LL {
     public static Node intersectionNodes(Node head1, Node head2){

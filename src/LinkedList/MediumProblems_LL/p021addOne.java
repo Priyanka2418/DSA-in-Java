@@ -1,4 +1,4 @@
-package src.LinkedList.MediumProblems_DLL;
+package src.LinkedList.MediumProblems_LL;
 class LinkedList1 {
     Node append(Node head, int value) {
         Node newNode = new Node(value);

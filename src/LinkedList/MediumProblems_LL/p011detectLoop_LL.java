@@ -6,7 +6,7 @@
 
 // Time Complexity: O(n)
 // Space Complexity: O(1)
-package src.LinkedList.MediumProblems_DLL;
+package src.LinkedList.MediumProblems_LL;
 
 public class p011detectLoop_LL {
     public static boolean detectLoop(Node head){

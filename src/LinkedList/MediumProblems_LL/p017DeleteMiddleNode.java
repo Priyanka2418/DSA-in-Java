@@ -4,7 +4,7 @@ SC: O(N/2) we traverse the entire LL using slow nad fast pointer , effectively c
 TC: O(1) we have fixed number of pointers and variables to delete the node.
  */
 
-package src.LinkedList.MediumProblems_DLL;
+package src.LinkedList.MediumProblems_LL;
 
 public class p017DeleteMiddleNode {
     public static Node deleteMiddle(Node head){

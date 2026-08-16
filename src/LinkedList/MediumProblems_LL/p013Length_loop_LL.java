@@ -3,7 +3,7 @@ Problem : Find the Length of the Loop
 TC: O(N), we traverse the entire linked list atleast once to find the length of the loop.
 SC:  O(1)
  */
-package src.LinkedList.MediumProblems_DLL;
+package src.LinkedList.MediumProblems_LL;
 
 public class p013Length_loop_LL {
     public static int loopLength(Node head){

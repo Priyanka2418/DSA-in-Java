@@ -4,7 +4,7 @@ TC: : O(N), we traverse the list twice, once to reverse half of it and once to c
 each taking O(N/2), which simplifies to O(N).
 SC:  O(1), no extra space is used apart from few pointers
  */
-package src.LinkedList.MediumProblems_DLL;
+package src.LinkedList.MediumProblems_LL;
 
 public class p014palindromeCheck_LL {
     public static boolean palindromeCheck(Node head){

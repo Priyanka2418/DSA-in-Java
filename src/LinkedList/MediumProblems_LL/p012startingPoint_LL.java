@@ -7,7 +7,7 @@
 // Time Complexity: O(n)
 // Space Complexity: O(1)
 
-package src.LinkedList.MediumProblems_DLL;
+package src.LinkedList.MediumProblems_LL;
 
 public class p012startingPoint_LL {
     public static Node detectCycle(Node head){

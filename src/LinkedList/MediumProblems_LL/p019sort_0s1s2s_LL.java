@@ -3,7 +3,7 @@ Problem :  Sort a Linked List of 0's 1's and 2's by changing links
 TC : O(n), We traverse the entire list once.
 SC : O(1), Only dummy nodes and pointers are used (constant space).
  */
-package src.LinkedList.MediumProblems_DLL;
+package src.LinkedList.MediumProblems_LL;
 class LinkedList{
     Node head;
     LinkedList(){

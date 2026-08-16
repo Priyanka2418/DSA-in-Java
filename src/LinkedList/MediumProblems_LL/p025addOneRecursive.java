@@ -4,7 +4,7 @@ Problem: Add 1 to a number represented by LL
 TC: O(n)
 SC: O(n) - recursion stack
  */
-package src.LinkedList.MediumProblems_DLL;
+package src.LinkedList.MediumProblems_LL;
 
 public class p025addOneRecursive {
     public Node addOne(Node head){

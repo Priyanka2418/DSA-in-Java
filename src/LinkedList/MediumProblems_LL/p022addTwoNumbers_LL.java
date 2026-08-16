@@ -6,7 +6,7 @@ SC: O(max(n, m)) - result list
     O(1) auxiliary space
  */
 
-package src.LinkedList.MediumProblems_DLL;
+package src.LinkedList.MediumProblems_LL;
 
 public class p022addTwoNumbers_LL {
     public Node addTwoNumbers(Node head1, Node head2){

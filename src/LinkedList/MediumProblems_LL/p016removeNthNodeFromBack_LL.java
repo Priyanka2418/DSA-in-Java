@@ -4,7 +4,7 @@ TC: O(N) since the fast pointer traverse teh entire linked list;
 SC: o(1) constant additional space is used
  */
 
-package src.LinkedList.MediumProblems_DLL;
+package src.LinkedList.MediumProblems_LL;
 
 public class p016removeNthNodeFromBack_LL {
     public static Node removeNthNode(Node head, int N){
