@@ -1,7 +1,7 @@
 /*
 Problem : Reverse Linked List in groups of Size K
-SC: O(N),We visit each node exactly once during reversal and during group detection
-TC:  O(1),The algorithm uses a constant amount of extra memory for pointers and dummy node.
+TC: O(N),We visit each node exactly once during reversal and during group detection
+SC:  O(1),The algorithm uses a constant amount of extra memory for pointers and dummy node.
  */
 package src.LinkedList.HardProblems_LL;
 class  Node {
