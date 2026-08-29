@@ -1,7 +1,8 @@
 /*
-Problem : Word Serach
-TC: O(R × C × 3^L)
-SC: O(L)
+ * Problem: Word Search
+ * TC: O(R × C × 3^L) — Try each cell as a starting point and explore up to 3
+ *     unvisited directions for each character.
+ * SC: O(L) — DFS recursion depth can reach the length of the word.
  */
 package src.recursion.HardProblems;
 
