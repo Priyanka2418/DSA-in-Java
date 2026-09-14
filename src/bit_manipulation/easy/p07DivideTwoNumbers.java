@@ -1,48 +1,42 @@
 /*
 Problem : Divide two integers without using multiplication, division and mod operator
-TC: O(|dividend| / |divisor|), worst case O(2^31)
+TC: O(log² |dividend|)
 SC: O(1)
 */
-package src.bit_manipulation.easy;
+package src.bitmanipulation.easy;
 
 public class p07DivideTwoNumbers {
     public int divide(int dividend , int divisor){
-        if (dividend == divisor) return 1;
+        if (dividend == divisor)
+            return 1;
 
-        if (dividend == Integer.MIN_VALUE && divisor == -1)
+
+        boolean isPositive = (dividend < 0) == (divisor < 0);
+
+
+        long a = Math.abs((long) dividend);
+        long b = Math.abs((long) divisor);
+        long ans = 0;
+
+
+        while (a >= b) {
+            int q = 0;
+
+
+            while (a > (b << (q + 1)))
+                q++;
+
+
+            ans += (1L << q);
+            a -= (b << q);
+        }
+
+
+        if (ans == (1L << 31) && isPositive)
             return Integer.MAX_VALUE;
 
-        if (divisor == 1) return dividend;
 
-        boolean isPositive = true;
-
-        if (dividend >= 0 && divisor < 0) {
-            isPositive = false;
-        } else if (dividend < 0 && divisor > 0) {
-            isPositive = false;
-        }
-
-        long n = dividend;
-        long d = divisor;
-
-        n = Math.abs(n);
-        d = Math.abs(d);
-
-        long ans = 0;
-        long sum = 0;
-
-        while (sum + d <= n) {
-            ans++;
-            sum += d;
-        }
-
-        if (isPositive) {
-            return ans > Integer.MAX_VALUE
-                    ? Integer.MAX_VALUE
-                    : (int) ans;
-        } else {
-            return (int) (-ans);
-        }
+        return isPositive ? (int) ans : (int) -ans;
     }
     public static void main(String[] args) {
         int dividend = 12, divisor = 7;

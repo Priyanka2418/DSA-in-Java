@@ -3,7 +3,7 @@ Problem : Count the number of set bits
 TC: O(log n), because each bit of the integer is checked once.
 SC: O(1), only a few variables are used.
  */
-package src.bit_manipulation.easy;
+package src.bitmanipulation.easy;
 
 public class p04CountNumberofSetBits {
     public int countSetBits(int n ){

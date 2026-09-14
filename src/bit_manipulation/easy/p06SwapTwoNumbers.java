@@ -3,7 +3,7 @@ Problem : Swap two numbers
 TC: O(1) Constant operations.
 SC: O(1) No extra space used.
  */
-package src.bit_manipulation.easy;
+package src.bitmanipulation.easy;
 
 public class p06SwapTwoNumbers {
     public void swap(int[]arr){
