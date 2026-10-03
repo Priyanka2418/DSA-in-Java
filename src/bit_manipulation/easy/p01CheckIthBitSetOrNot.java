@@ -3,7 +3,7 @@ Problem : Check if the i-th bit is set or not
 TC: O(1), constant time bitwise operation.
 SC: O(1), no additional space used.
  */
-package src.bitmanipulation.easy;
+package src.bit_manipulation.easy;
 
 public class p01CheckIthBitSetOrNot {
     public boolean checkIthBit(int n, int i) {

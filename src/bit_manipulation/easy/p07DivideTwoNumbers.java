@@ -3,7 +3,7 @@ Problem : Divide two integers without using multiplication, division and mod ope
 TC: O(log² |dividend|)
 SC: O(1)
 */
-package src.bitmanipulation.easy;
+package src.bit_manipulation.easy;
 
 public class p07DivideTwoNumbers {
     public int divide(int dividend , int divisor){

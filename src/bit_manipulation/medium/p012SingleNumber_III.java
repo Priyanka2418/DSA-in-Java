@@ -3,7 +3,7 @@ Problem : Find the two numbers appearing odd number of times
 TC: O(N), traversing the array twice results in O(2*N) time complexity.
 SC: O(1), using a couple of variables, i.e., constant space.
  */
-package src.bitmanipulation.medium;
+package src.bit_manipulation.medium;
 
 public class p012SingleNumber_III {
     public int[] singleNumber(int[]nums){

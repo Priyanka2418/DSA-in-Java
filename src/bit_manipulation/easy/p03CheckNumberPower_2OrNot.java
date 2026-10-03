@@ -3,7 +3,7 @@ Problem : Check if a number is power of 2 or not
 TC: O(1), because bitwise operations take constant time
 SC: O(1), no extra space used.
  */
-package src.bitmanipulation.easy;
+package src.bit_manipulation.easy;
 
 public class p03CheckNumberPower_2OrNot {
     public boolean CheckPowerNumber(int n){

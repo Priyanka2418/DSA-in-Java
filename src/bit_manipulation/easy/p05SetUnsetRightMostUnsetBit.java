@@ -3,7 +3,7 @@ Problem : Set the rightmost bit
 TC: O(1)
 SC: O(1)
  */
-package src.bitmanipulation.easy;
+package src.bit_manipulation.easy;
 
 public class p05SetUnsetRightMostUnsetBit {
     public int SetRightmostBit(int num){
